@@ -33,7 +33,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	private static DriverFactory driverfactory;
 	@BeforeTest
      @Parameters({"browser"})
-    public void defineBrowser(@Optional("firefox") String browser) throws Throwable {
+    public void defineBrowser(String browser) throws Throwable {
 	System.out.println("Browser is"+browser);
 //		driverfactory = new DriverFactory();
 //		driver = driverfactory.initializeBrowser(browser);
