@@ -35,10 +35,10 @@ public class TestRunner extends AbstractTestNGCucumberTests {
      @Parameters({"browser"})
     public void defineBrowser(String browser) throws Throwable {
 	System.out.println("Browser is"+browser);
-//		driverfactory = new DriverFactory();
-//		driver = driverfactory.initializeBrowser(browser);
+		driverfactory = new DriverFactory();
+		driver = driverfactory.initializeBrowser(browser);
 //		ConfigReader.initializedProperties();
-	ConfigReader.setBrowserType(browser);
+	//ConfigReader.setBrowserType(browser);
 	LoggerLoad.info("Initializing driver for : "+browser);
 	}
 }
