@@ -9,7 +9,7 @@
 	  
 	   </classes>
 	   </test> -->
-   <test parallel="true" thread-count="3" name="ChromeTestCases"> 
+   <test thread-count="3" name="ChromeTestCases"> 
 	 
 	  <parameter name="browser" value="chrome"></parameter>
 	   <classes>
@@ -17,7 +17,7 @@
 	  
 	   </classes>
      </test> 
-  <!--  <test parallel="true" thread-count="3" name="EdgeTestCases">
+   <!-- <test parallel="true" thread-count="3" name="EdgeTestCases">
 	 
 	  <parameter name="browser" value="edge"></parameter>
 	   <classes>

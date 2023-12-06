@@ -15,9 +15,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
 public static WebDriver driver;
-FirefoxOptions firefoxoptions=new FirefoxOptions();
-ChromeOptions chromeoptions=new ChromeOptions();
-EdgeOptions edgeoptions=new EdgeOptions();
+//FirefoxOptions firefoxoptions=new FirefoxOptions();
+//ChromeOptions chromeoptions=new ChromeOptions();
+//EdgeOptions edgeoptions=new EdgeOptions();
 public WebDriver initializeBrowser(String browser)
 {
 if (browser.equalsIgnoreCase("firefox")) {

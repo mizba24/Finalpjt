@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="FirefoxTestCases(failed)">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="5" parallel="methods" name="EdgeTestCases(failed)">
+    <parameter name="browser" value="edge"/>
     <classes>
       <class name="runner.TestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="32 33 34 26 27 28 29 30 31"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="80 66 67 68 69 41 74 75 78 79"/>
           <include name="defineBrowser"/>
         </methods>
       </class> <!-- runner.TestRunner -->
     </classes>
-  </test> <!-- FirefoxTestCases(failed) -->
+  </test> <!-- EdgeTestCases(failed) -->
 </suite> <!-- Failed suite [Suite] -->

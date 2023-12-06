@@ -15,12 +15,12 @@ import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 import io.qameta.allure.Allure;
-import utilities.ConfigReader;
+
 import utilities.LoggerLoad;
 
 public class AppHooks extends DriverFactory{
 	public static WebDriver driver;
-static ConfigReader configReader;
+
 static DriverFactory driverfactory;
 static Scenario scenario;
 static Properties prop;
